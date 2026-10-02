@@ -59,7 +59,7 @@ print("123".isdigit())
 
 postcode = input("Enter your postcode: ")
 
-# if len(postcode) == 6:
-#     print("Valid length")
-# else:
-#     print("Invalid length")
+if len(postcode) == 6:
+    print("Valid length")
+else:
+    print("Invalid length")
