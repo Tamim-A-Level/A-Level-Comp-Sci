@@ -63,3 +63,6 @@ if len(postcode) == 6:
     print("Valid length")
 else:
     print("Invalid length")
+
+#different change
+
