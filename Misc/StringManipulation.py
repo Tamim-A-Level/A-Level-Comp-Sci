@@ -64,7 +64,7 @@ if len(postcode) == 6:
 else:
     print("Invalid length")
 
-#difn
+
 
 
 
