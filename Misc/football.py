@@ -53,13 +53,24 @@ for i in range(len(football_teams)):
 print("")
 print("The team with the highest score is "+winningt+ " with "+str(winnings)+ " points.")
 
-start=int(input("\nHow would you like it sorted\nBy points(1)\nBy Names(2)\nExit(3)\n:"))
-end=0
-while end==0:
-    if start== 1:
+# start=int(input("\nHow would you like it sorted\nBy points(1)\nBy Names(2)\nExit(3)\n:"))
+# end=0
+# while end==0:
+#     if start== 1:
+#         bubblesortscore()
+#     elif start== 2:
+#         bubblesortnames()
+#     else:
+#         end=-1
+#         print("Bye")
+end = 0
+while end == 0:
+    start = int(input("\nHow would you like it sorted\nBy points(1)\nBy Names(2)\nExit(3)\n:"))
+    if start == 1:
         bubblesortscore()
-    elif start== 2:
+    elif start == 2:
         bubblesortnames()
     else:
-        end=-1
+        end = -1
         print("Bye")
+
